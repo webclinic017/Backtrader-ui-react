@@ -1,0 +1,121 @@
+body {
+  background:  #e3e6ec;
+  margin: 0px;
+ 
+   &::-webkit-scrollbar {
+     display: none;
+     }
+   }
+   .login_form_container {
+       height: 630px;
+       width: 400px;
+       border-radius: 0.5em;
+       padding: 2em;
+       display: flex;
+       flex-direction: column;
+ 
+   
+     
+     }
+     .login_container {
+       height: 100vh;
+       width: 100vw;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       
+     
+       background-image: url(../assets/image/Illustration1.svg),
+         url(../assets/image/Illustration2.svg);
+       background-position: left bottom, right bottom;
+       background-repeat: no-repeat;
+       background-size: 25vw 20vw;
+     }
+     .signup_form_container {
+       height: 400px;
+       min-width: 200px;
+       border-radius: 0.5em;
+       padding: 2em;
+       display: flex;
+       flex-direction: column;
+       @media (min-width: 200px) {
+         width: 200px;
+       }
+       @media (min-width: 300px) {
+         width: 300px;
+       }
+       @media (min-width: 600px) {
+         width: 400px;
+       }
+     
+     }
+     .signup_container {
+       height: 100vh;
+       width: 100vw;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       
+     
+       background-image: url(../assets/image/Illustration1.svg),
+         url(../assets/image/Illustration2.svg);
+       background-position: left bottom, right bottom;
+       background-repeat: no-repeat;
+       background-size: 25vw 20vw;
+     }
+    
+     .verify_form_container {
+       height: 350px;
+       min-width: 200px;
+       border-radius: 0.5em;
+       padding: 2em;
+       display: flex;
+       flex-direction: column;
+       @media (min-width: 200px) {
+         width: 200px;
+       }
+       @media (min-width: 300px) {
+         width: 300px;
+       }
+       @media (min-width: 600px) {
+         width: 400px;
+       }
+     
+     }
+     .verify_container {
+       height: 100vh;
+       width: 100vw;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       
+     
+       background-image: url(../assets/image/Illustration1.svg),
+         url(../assets/image/Illustration2.svg);
+       background-position: left bottom, right bottom;
+       background-repeat: no-repeat;
+       background-size: 25vw 20vw;
+     }
+     
+    
+     
+    
+     
+     
+     
+    
+    
+     
+     .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+       width: 300px !important;
+     }
+     .css-pm8d7m-JoyRadioGroup-root {
+       --RadioGroup-gap: 0rem !important;
+     }
+     .css-f0ril7-JoyRadioGroup-root {
+      --RadioGroup-gap: 0rem !important;
+     }
+    
